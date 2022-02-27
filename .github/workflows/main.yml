@@ -45,7 +45,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: eaglejohan/todo
+          tags: eaglejohan/cloud
           context: ./
 
       # Runs a single command using the runners shell
